@@ -1,0 +1,29 @@
+*** FOR DELETE A FILE FROM YOUR COMMAND LINE ***
+Suppose your command is: PS C:\Users\Yourname\Foldername\Filename>
+Now if you use this command------
+PS C:\Users\Yourname\Foldername\Filename> cd.. Filename 
+Then the Filename will be removed and it Looks Like---
+PS C:\Users\Yourname\Foldername> 
+Now you can start rewrite your commands
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**** FOR ADD A FILE TO YOUR COMMAND LINE ****
+Suppose your command is: PS C:\Users\Yourname\Foldername>
+Now if you add a File to this command line---
+You only need to write cd Filename
+So, After write the command like this---
+ PS C:\Users\Yourname\Foldername>cd Filename
+Now the command update and forms like this---
+ PS C:\Users\Yourname\Foldername>Filename>
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ **** IF YOU LOST YOUR COMMAND ****
+ Suppose you lost your command:  PS C:\Users\Yourname\Foldername> 
+ While working using terminal and there is no such command like this that I write just previous line (command)
+ Then you simple Use "CTRL + C" to give back command
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
