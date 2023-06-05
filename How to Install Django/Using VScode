@@ -1,0 +1,95 @@
+As First You need Download "Python" in your PC from Python website
+https://www.python.org/downloads/
+If you install it already then you don't need to Download again
+To chcek your "Python" Language run/works in your PC correctly you need to run this command: py --version
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Now Open VsCode without opening any Folder or File your need to open Terminal then New Terminal
+After open New Terminal you will see: PS C:\Users\Yourname>
+Now you need to write mdkir "DirectoryName" 
+Suppose "DirectoryName" is Candy
+Then You need to write the command: PS C:\Users\Yourname> mkdir Candy
+And run this command using ENTER
+
+After run this command you will see the result: Directory: C:\Users\Yourname
+Then you need to run this command: PS C:\Users\Yourname> cd Candy
+The you will see the command like this: PS C:\Users\Yourname\Candy>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After all of this You need to create a Virtual Environment...
+Using this command to create a Virtual Envirtual: pyhon -m venv "VirtualEnvironmentName" (Suppose Virtual Environment Name myenv)
+Now you need to write this this command Like this: PS C:\Users\Yourname\Candy> python -m venv myenv
+And ENTER
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOW YOU NEED TO ACTIVATE VIRTUAL ENVIRONMENT
+The command to Activate Virtual Environment: PS C:\Users\Yourname\Candy> myenv\scripts\activate
+And ENTER
+If you see that your Virtual Environment Name shows towards Left of your Command Line then you must be sure that your Viratual Environment Name ACtivated
+It Shows Like this: (myenv) PS C:\Users\Yourname\Candy>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After this You Need to Install Django (Django is a Python Web Framework)
+Now you Install Django using this command: (myenv) PS C:\Users\Yourname\Candy> pip install django 
+Now wait for 30 Seconds to complete its Installing process
+
+After Installing, it will tell you to upgrade Django latest version
+Using this command to install its latest version: (myenv) PS C:\Users\Yourname\Candy> python.exe -m pip install --upgrade pip
+And ENTER
+It will show Successfully install pip 
+Now you must be sure that you successfully install latest version of Django
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After Installing Django you need to create Project Name
+Suppose your Project Name is owl
+So, You need to write this command: (myenv) PS C:\Users\Yourname\Candy> django-admin startproject owl
+And ENTER
+After this you need to write this command: (myenv) PS C:\Users\Yourname\Candy> cd owl
+And ENTER
+And it wiil show the command like this: (myenv) PS C:\Users\Yourname\Candy\owl>
+After this you need to run this command to create a server:  (myenv) PS C:\Users\Yourname\Candy\owl> python manage.py runserver
+And ENTER
+After run this command you will see development http server Like: http://127.0.0.1:8000/
+Click upon the link with your cursor and you will see 'Follow Link'
+Click on 'Follow Link' that will redirect you in a new webpage where you will see that 'A ROCKET LOGO and A line The install worked successfully! Congratulations!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***** START CREATING YOUR APP WITH SUITABLE APP NAME *****
+The App Name Like 'Onlineclasses'
+To create your app you need to run this command: (myenv) PS C:\Users\Yourname\Candy\owl> python manage.py startapp onlineclasses
+And ENTER
+And close VsCode
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***** HOW TO KNOW MY APP IS CREATED ? *****
+To know about your app created or not
+You need to open C drive then Users then Youname then you will see Your Directory Name (Such as Candy) then Open Your Project (Like 'owl')
+C Drive->Users->YourName->Candy->Owl
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Now Open Vs Code and Open your Project Name Folder (owl) on VsCode
+Then open Terminal then New Terminal 
+(myenv) PS C:\Users\Yourname\Candy\owl>
+If you don't this above command and
+If you will see this command: PS C:\Users\Yourname\Candy\owl>
+Now you need to remove 'owl' using command: cd.. owl
+And ENTER
+Now you need to activate Virtual Environment using this command: PS C:\Users\Yourname\Candy> myenv\scripts\activate
+And ENTER
+And if you see the result like this: (myenv) PS C:\Users\Yourname\Candy>
+Then you must be sure that you done this work properly
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOW YOUR DJANGO IS READY TO START YOUR APP DEVELOPMENT
+
+
+
